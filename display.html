@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>vertical in Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="nesting-style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="p-4 d-inline-block pink">
+            <h4>col 1</h4>Lorem ipsum dolor sit amet.</div>
+        <div class="p-4 d-inline-block green"><h4>col 2</h4>Lorem ipsum dolor sit amet.</div>
+    </div><br/>
+    <br/>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 pink">
+                <h4>col 1</h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, impedit!
+            </div>
+            <div class="col-md-3 d-none d-sm-block skyblue">
+                <h4>col 2</h4>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, impedit!
+
+            </div>
+                <div class="col-md-3 d-block d-sm-none tan">
+                <h4>col 3</h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, impedit!
+
+                </div>
+            <div class="col-md-3 green">
+                <h4>col 4</h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, impedit!
+
+            </div>
+        </div>
+    </div><br/>
+    <br/>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 pink">
+                <h4>col 1</h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, impedit!
+            </div>
+            <div class="col-md-3 skyblue">
+                <h4>col 2</h4>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, impedit!
+
+            </div>
+                <div class="col-md-3 d-print-none tan">
+                <h4>col 3</h4>print time ye text show nhi ho ga, q k display mai print none ki class use hoti hahi
+
+                </div>
+            <div class="col-md-3 green">
+                <h4>col 4</h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, impedit!
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="d-flex flex-column" style="border: 5px solid green;">
+            <div class="order-3 pink">col 1</div>
+            <div class="order-1 cyan">col 2</div>
+            <div class="order-2 tan">col 3</div>
+    </div>
+
+    </div>
+</body>
+
+</html>

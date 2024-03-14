@@ -1,0 +1,33 @@
+.container{
+    border: 5px solid black;
+}
+.row{
+    border: 5px solid purple;
+}
+.pink{
+    background: pink;
+}
+.skyblue{
+    background: skyblue;
+}
+.tan{
+    background: tan;
+}
+.green{
+    background: green;
+}
+.plum{
+    background: plum;
+    font-size: 12px;
+}
+.orange{
+    background: orange;
+    font-size: 20px;
+}
+.orangered{
+    background: orangered;
+    font-size: 17px;
+}
+h4{
+    border: 2px solid yellowgreen;
+}

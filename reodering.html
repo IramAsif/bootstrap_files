@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>peodering in Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="reodering-style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col order-last pink">Col 1</div>
+        <div class="col skyblue">Col 2</div>
+        <div class="col green">Col 3</div>
+        <div class="col order-first tan">Col 4</div>
+
+    </div>
+    <div class="row">
+        <div class="col-12 orange">
+           <pre> reodering in row-1(using last & first order class) 
+           reodering in row-3(using media query) 
+           reodering layout in row-4</pre>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5 order-md-1 order-sm-3 pink">Col 1</div>
+        <div class="col-md-3 order-md-3 order-sm-2  skyblue">Col 2</div>
+        <div class="col-md-4 order-md-2 order-sm-1 green">Col 3</div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 order-md-2 tan">
+            <h1>Heading</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio cupiditate sit modi ipsum at architecto qui, quibusdam repellat accusantium voluptas quas animi laboriosam nesciunt quo molestiae temporibus harum provident beatae corporis ipsam ullam! Vero voluptate optio iusto recusandae tenetur. Dolore ducimus earum aperiam similique incidunt commodi facilis quia vero explicabo.
+            </p>
+        </div>
+        <div class="col-md-4 order-md-1 skyblue">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us </a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contacts Us</a></li>
+                </ul>
+        </div>
+    
+    </div>
+  </div>
+</body>
+</html>

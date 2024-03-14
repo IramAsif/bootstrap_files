@@ -1,0 +1,21 @@
+.container{
+    border: 5px solid black;
+}
+.row{
+    border: 5px solid red;
+}
+.pink{
+    background: pink;
+}
+.skyblue{
+    background: skyblue;
+}
+.tan{
+    background: tan;
+}
+.green{
+    background: green;
+}
+.cyan{
+    background: cyan;
+}
